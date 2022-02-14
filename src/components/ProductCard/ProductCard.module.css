@@ -1,0 +1,46 @@
+.card {
+    width: 260px;
+    height: 400px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin: 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 220px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.price {
+    color: black;
+}
+
+.button__wrapper {
+    margin: 0 auto;
+}
+
+.notAvailable {
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+}

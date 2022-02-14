@@ -1,0 +1,34 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid white;
+    padding: 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 350px;
+    height: 25px;
+}
+
+.span {
+    display: flex;
+    justify-content: end;
+    color: red;
+    margin-top: -14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.Form span {
+    font-size: 12px;
+}
